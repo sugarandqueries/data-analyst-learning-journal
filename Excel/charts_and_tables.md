@@ -45,4 +45,12 @@ When to use a scatter chart
 
 ![image](https://github.com/user-attachments/assets/20acf326-0ea4-4dbb-b4d3-6916feeed4e3)
 
+**Trendlines**
+also called line of best fit
+* how to measure it? use **R-squared,** which explains that the amount of variability in one column can be explained by its relationship to another related column.
+    * also measures the strength of the relationship between x and y axis, with 1 being a perfect fit.
+* In the first chart below, the R^2 value explains that about 98% of the changes in Actual Temp. can be explained by Apparent Temp. 
+![Screenshot 2025-06-12 144106](https://github.com/user-attachments/assets/124def4e-9c6c-4151-b68a-fed98a44489a)
+* For the 2nd chart above, under 40% of the changes in Amount of Bikes Rented can be explained by the changes in Actual Temp. This means that they are loosely correlated, but not as much as the first chart.
+  
 ---
