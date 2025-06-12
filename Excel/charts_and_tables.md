@@ -40,5 +40,9 @@ When to use a scatter chart
 * explore data + find relationships
 
 ![image](https://github.com/user-attachments/assets/1408bb16-8421-4131-84bb-c40e5d40d24c)
+* That little dot between 0.6 and 0.8 on the x-axis is called an outlier! 
+![image](https://github.com/user-attachments/assets/e0beb286-c87a-4021-9264-c3cb0c35d736)
+
+![image](https://github.com/user-attachments/assets/20acf326-0ea4-4dbb-b4d3-6916feeed4e3)
 
 ---
