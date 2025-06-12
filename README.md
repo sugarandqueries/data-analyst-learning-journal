@@ -1,7 +1,7 @@
 
 # 🌟 Sarah's Data Analyst Learning Journal
 
-Welcome to my personal learning repo! I'm teaching myself data analysis with tools like **Power BI**, **Excel**, **SQL**, and **Python**. This is a place where I:
+Welcome to my personal learning repo! I'm teaching myself data analysis with tools like **Power BI**, **Excel**, **SQL**, and **Python**. This is a place where I will:
 
 - 📚 Take notes and organize key concepts
 - 🧪 Practice code and problem-solving
@@ -25,8 +25,8 @@ Welcome to my personal learning repo! I'm teaching myself data analysis with too
 
 ### 📌 Current Goals
 - [x] Set up this GitHub repo
-- [ ] Finish Warframe weapon dashboard
-- [ ] Do SQL joins practice from Dataquest
+- [ ] Do 3 Dataquest lessons a day
+- [ ] Start Learning SQL on Dataquest
 - [ ] Upload 1 learning note per week
 
 Thanks for stopping by!
