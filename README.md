@@ -1,5 +1,5 @@
 
-# 🌟 Sarah's Data Analyst Learning Journal
+# ✨ Sarah's Data Analyst Learning Journal ✨
 
 Welcome to my personal learning repo! I'm teaching myself data analysis with tools like **Power BI**, **Excel**, **SQL**, and **Python**. This is a place where I will:
 
