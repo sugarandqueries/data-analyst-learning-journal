@@ -13,15 +13,15 @@
 *  false: An exact (FALSE) or approximate (TRUE) return value
 
 ---
-### Study AVERAGEIFS more- write down definition/use in own words
+
 ```=AVERAGEIFS(average_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)```
 * Uses multiple criteria to determine which values it should act upon
-#### Steps to use AVERAGEIFS
-1. Create a table to store all your averages for each column
-2. Insert the AVERAGEIF function
-3. Select your average_range, i.e, windspeed
-     * for criteria_range1, select your criteria and referring to your dataset, i.e., season, then select the value of the column that you want to use (like 1, 2, 3, etc)
-     * for criteria_range2, select another criteria from another column, i.e., year, then select the value of the column you want to use (like 1, 2, 3, etc)
+#### How to Use AVERAGEIFS in Excel
+1. **Set up a table** where you'll store the average results.
+2. Use the AVERAGEIFS function to calculate the average based on conditions.
+3. **average_range** – choose the column with the numbers you want to average (e.g., windspeed).
+4. **criteria_range1** – pick the first condition column (like "Season") and specify the value to filter by (e.g., 1, 2, 3...).
+5. **criteria_range2** – pick a second condition column (like "Year") and its specific value (e.g., 2020, 2021...).
 
 ---
 
