@@ -23,10 +23,15 @@ Welcome to my personal learning repo! I'm teaching myself data analysis with too
 
 ---
 
-### 📌 Current Goals
-- [x] Set up this GitHub repo
-- [ ] Do 3 Dataquest lessons a day
-- [ ] Start Learning SQL on Dataquest
-- [ ] Upload 1 learning note per week
+### 🧠 Skill Building
+- [ ] Finish 3 Power BI practice dashboards 📊
+- [ ] Complete SQL joins and subqueries on DataQuest 🔄
+- [ ] Master Excel formulas 📋
+
+### 📁 Projects & Practice
+- [ ] Publish my Warframe weapon mastery dashboard ⚔️📈
+- [ ] Start a “30 Days of Data” challenge 🗓️
+- [ ] Build a dashboard using an open dataset (games, mental health, etc.) 💾
+- [ ] Create at least one portfolio project per tool: Excel, Power BI, Python 🧰
 
 Thanks for stopping by!
