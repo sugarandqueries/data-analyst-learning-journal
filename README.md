@@ -22,6 +22,7 @@ Welcome to my personal learning repo! I'm teaching myself data analysis with too
 | [Resources](./Resources) | Courses, videos, blogs, cheat sheets |
 
 ---
+## 🎯 Learning Goals & Milestones
 
 ### 🧠 Skill Building
 - [ ] Finish 3 Power BI practice dashboards 📊
