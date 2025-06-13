@@ -57,3 +57,6 @@ also called line of best fit
 * For the 2nd chart above, under 40% of the changes in Amount of Bikes Rented can be explained by the changes in Actual Temp. This means that they are loosely correlated, but not as much as the first chart.
   
 ---
+
+
+
