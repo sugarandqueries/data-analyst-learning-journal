@@ -14,12 +14,12 @@ Welcome to my personal learning repo! I'm teaching myself data analysis with too
 
 | Category | Description |
 |---------|-------------|
-| [SQL](./SQL) | Syntax, joins, practice queries |
-| [Excel](./Excel) | Formulas, pivot tables, formatting tips |
+| [Excel](./Excel) | Functions/Formulas, datasets, formatting/data visualization tips |
 | [Power BI](./PowerBI) | Visuals, DAX formulas, dashboards |
 | [Python](./Python) | Data manipulation with Pandas & NumPy |
 | [Projects](./Projects) | Hands-on dashboards and portfolio work |
 | [Resources](./Resources) | Courses, videos, blogs, cheat sheets |
+| [SQL](./SQL) | Syntax, joins, practice queries |
 
 ---
 ## 🎯 Learning Goals & Milestones
