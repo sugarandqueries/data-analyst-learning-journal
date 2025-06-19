@@ -5,7 +5,7 @@ This project uses data adapted from the [Warframe Mastery Checklist](https://doc
 ---
 
 ### 🔫 Weapon Data Source
-This also project contains data adapted from the [Warframe Weapons Database on Kaggle](https://www.kaggle.com/datasets/mexwell/warframe-weapons), created by **Mexwell (@mexwell)**.
+This also project contains data adapted from the [Warframe Gun Dataset on Kaggle](https://www.kaggle.com/datasets/mexwell/warframe-weapons), created by **Mexwell (@mexwell)**.
 
 ---
 
