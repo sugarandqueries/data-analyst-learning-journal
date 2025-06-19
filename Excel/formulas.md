@@ -25,3 +25,5 @@
 
 ---
 
+```=DATEDIF(A1, B1, "d")``` 
+* Calculate the difference between two dates in days. "d" is # of days, "m" is # of months
