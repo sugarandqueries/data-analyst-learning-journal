@@ -15,6 +15,13 @@ Basic guidelines:
   
 ![Screenshot 2025-06-11 204342](https://github.com/user-attachments/assets/f8804035-1169-4d39-87c1-a12379746738)
 
+  **Right-Skewed Distribution**
+    ![image](https://github.com/user-attachments/assets/2180646b-970e-4387-ba70-711b16c229ef)
+
+  **Left-Skewed Distribution**
+      ![image](https://github.com/user-attachments/assets/21ef159a-444b-43db-8db7-467b75c4aa99)
+
+
 ---
 
 **Line Charts**
@@ -55,9 +62,23 @@ also called line of best fit
 ![Screenshot 2025-06-12 144106](https://github.com/user-attachments/assets/124def4e-9c6c-4151-b68a-fed98a44489a)
 
 * For the 2nd chart above, under 40% of the changes in Amount of Bikes Rented can be explained by the changes in Actual Temp. This means that they are loosely correlated, but not as much as the first chart.
+
+---
+
+### Boxplots
+Another way, like histograms, to display the IQR (inner quartile range)
+  * The Median is the center of the IQR
+  * The Mean is the same as the IQR
+  * The whiskers represent the min. and max. value within the range of data points that aren't outliers
+    * Any data point outside this range is considered an outlier
+  * Remember, any data that follows a bell-shaped curve is normally distributed
+
+![image](https://github.com/user-attachments/assets/755e38f9-f61e-4dec-82fe-3b94d6db377f)
+
   
 ---
 
 
 
 
+*images/charts sourced from DataQuest, I take no ownership.*
