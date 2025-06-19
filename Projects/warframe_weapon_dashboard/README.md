@@ -9,4 +9,5 @@ This also project contains data adapted from the [Warframe Gun Dataset on Kaggle
 
 ---
 
+Big love to the Warframe community 💙
 _Not affiliated with Digital Extremes. Data adapted for educational/visualization purposes only._
