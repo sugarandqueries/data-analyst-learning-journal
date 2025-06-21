@@ -27,3 +27,10 @@
 
 ```=DATEDIF(A1, B1, "d")``` 
 * Calculate the difference between two dates in days. "d" is # of days, "m" is # of months
+
+---
+
+```=UNIQUE()```
+* Lists all distinct values in any range, aka the unique values
+* Wrap it inside the ```=COUNTA()``` function to find the number(count) of distinct values 
+  * ```=COUNTA(UNIQUE(products[country_of_origin]))```
