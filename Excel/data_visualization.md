@@ -18,7 +18,6 @@
   * Generally, you want to remove the border, soften/remove gridlines, and remove the vertical line for a bar chart.
 
 
-
 #### Drilling Down / Rolling Up
 * the process of adding additional levels of detail is *drilling down*
 * *rolling up* means to view the data at a less detailed level 
