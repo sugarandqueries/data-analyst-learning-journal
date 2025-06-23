@@ -1,9 +1,3 @@
-#### Refresher
-* x-axis = *cause/independent* values
-* y-axis = *effect/ dependent* values
-
----
-
 ### Histogram chart
 
 Basic guidelines:
@@ -23,10 +17,20 @@ Basic guidelines:
   **Left-Skewed Distribution**
       ![image](https://github.com/user-attachments/assets/21ef159a-444b-43db-8db7-467b75c4aa99)
 
+#### You can plot **multiple Histogram charts** by using a PivotChart!
+  1. Create a new PivotTable, Filtering the columns to only use the labels of the two histogram charts you want to combine. 
+  2. group whatever value you place in Rows to have a **Starting at**, a **Ending at**, and a **By** value. 
+  3. Creative the PivotChart by inserting a Clustered Column Chart. 
+  4. To make it look more like a regular histogram, right click on any of the bars and select **Format Data Series**
+     * Set **Series Overlap** to 100%
+     * Set **Gap Width** to 0%
+  5. Now you should have two histograms combined into one chart!
+   
+![alt text](image-1.png)
 
 ---
 
-### Line Charts
+## Line Charts
 
 When to use a line chart:
 * you have a large dataset with continuous data that you need to compare
@@ -37,7 +41,7 @@ When to use a line chart:
 
 ---
 
-### Scatter Charts
+## Scatter Charts
 
 Show the relationship between independent and dependent values of numerical data. They can have more than one y-value for each x-value. 
 * If a parttern forms a line, there is a linear correlation (correlation does not equal causation!) The closer the markers are to a straight line, the stronger the correlation.
@@ -54,7 +58,7 @@ When to use a scatter chart
 
 ![image](https://github.com/user-attachments/assets/20acf326-0ea4-4dbb-b4d3-6916feeed4e3)
 
-### Trendlines
+## Trendlines
 also called line of best fit
 * how to measure it? use **R-squared,** it explains that the amount of variability in one column can be explained by its relationship to another column. However, it is a measure of correlation, not whether the correlation is positive/negative.
     * also measures the strength of the relationship between x and y axis, with 1 being a perfect fit.
@@ -67,7 +71,7 @@ also called line of best fit
 
 ---
 
-### Boxplots
+## Boxplots
 Another way, like histograms, to display the IQR (inner quartile range)
   * The Median is the center of the IQR
   * The Mean is the same as the IQR

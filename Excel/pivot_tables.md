@@ -38,7 +38,6 @@ This shows you the **total sales per product per year** — automatically calcul
 * Uses **relative frequences** instead of absolute ones, meaning that the frequencies are expressed as a **percentage.** 
   * Calculated by diving how often a value occurs in a column (count) by the # of observations in that column (# of rows)
   * For example, you'd make a **PivotTable** with the rows as the label ```(Countries)``` and the then count of each row ```(could be ID number or order number)```
-  * 
 ---
 
 ## Tables 
