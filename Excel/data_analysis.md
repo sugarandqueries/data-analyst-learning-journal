@@ -20,9 +20,14 @@
    3. **Output options** to **New Worksheet Ply**
 3. Now you will have a **correlation matrix** that consists of the *correlation coefficients* between each *quantitative variable.* 
 
+![alt text](image-2.png)
+
+* **Linear regression** can be used to fit a line summarizing the relationship of an independent anddependent variable. 
 
 #### How to Interpret the **Correlation Coefficient**
   * It can be between ```-1``` and ```1```
   * A correlation of ```-1``` = perfect negative correlation, **as one variable increases, the other decreases**
   * A correlation of ```1``` = perfect positive correlation, **as one variable increases, so does the other**
   * A correlation of ```0``` means there is no correlation
+
+
