@@ -1,5 +1,6 @@
 #### General data viz. tips
 * **Exploratory** data visualization: we create charts for ourselves to understand and explore data. 🗺️
+  * use a variety of descriptive and visual techniques to see waht types of relationships/insights we could find in the data! 
 * **Explanatory** data visualization: we create charts for others to inform, make a point, or explain a relationship. 💬
 * Familiarity principle: simple charts are often more easier to remember compared to complex and vibrant ones.
 * Larger width charts: best for desktop views 🖥️

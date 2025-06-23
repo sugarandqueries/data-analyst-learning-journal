@@ -1,4 +1,4 @@
-**Data Cleaning Process Description**
+### Data Cleaning Process Description
 
 * Finding and removing duplicate data
 * Finding and removing extra spaces

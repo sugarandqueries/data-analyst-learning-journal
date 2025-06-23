@@ -1,17 +1,19 @@
-**Refresher:**
+#### Refresher
 * x-axis = *cause/independent* values
 * y-axis = *effect/ dependent* values
 
 ---
 
-**Histogram chart**
+### Histogram chart
 
 Basic guidelines:
 
-* continuous numerical data
-* see how often different ranges of values appear in your data
-* a large dataset you want to summarize quickly
-* each bin (x-axis) will have a different frequency (y-axis)
+* Continuous numerical data
+* See how often different ranges of values appear in your data
+* A large dataset you want to summarize quickly
+* Each bin (x-axis) will have a different frequency (y-axis)
+
+* Changing the *number of bins* in a histogram can help provide additional perspective about a variable's distribution.
   
 ![Screenshot 2025-06-11 204342](https://github.com/user-attachments/assets/f8804035-1169-4d39-87c1-a12379746738)
 
@@ -24,7 +26,7 @@ Basic guidelines:
 
 ---
 
-**Line Charts**
+### Line Charts
 
 When to use a line chart:
 * you have a large dataset with continuous data that you need to compare
@@ -35,7 +37,7 @@ When to use a line chart:
 
 ---
 
-**Scatter Charts**
+### Scatter Charts
 
 Show the relationship between independent and dependent values of numerical data. They can have more than one y-value for each x-value. 
 * If a parttern forms a line, there is a linear correlation (correlation does not equal causation!) The closer the markers are to a straight line, the stronger the correlation.
@@ -52,7 +54,7 @@ When to use a scatter chart
 
 ![image](https://github.com/user-attachments/assets/20acf326-0ea4-4dbb-b4d3-6916feeed4e3)
 
-**Trendlines**
+### Trendlines
 also called line of best fit
 * how to measure it? use **R-squared,** it explains that the amount of variability in one column can be explained by its relationship to another column. However, it is a measure of correlation, not whether the correlation is positive/negative.
     * also measures the strength of the relationship between x and y axis, with 1 being a perfect fit.

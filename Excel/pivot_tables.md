@@ -1,4 +1,4 @@
-### Pivot Tables
+### :chart_with_upwards_trend: Pivot Tables
 * A powerful tool to calculate, summarize, and analyze data that lets you see comparisons, patterns, and trends in your data.
 
 ## 🧩 What You Can Do With It
