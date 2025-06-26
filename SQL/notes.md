@@ -6,15 +6,24 @@
 ## C.R.U.D.
 * The types of operations SQL can perform are often called "CRUD," aka "creatue, read, update, delete. For data professionals, we usually perform read operations. 
 
+## Divison
+- Using the ```/``` symbol only performs *integer* division, discarding the factional part
+- To combat this, we can change the datatype of a column using ```CAST(column AS new_datatype)```
+  - ex: ```CAST(3 AS REAL) / 2 AS three_div_two``` will print:
+  - | three_div_two | 
+    | ------------- |
+    | 1.5           | 
+ 
+
+
+
 
 ## 🧠 Key Concepts
-- `SELECT`: used to choose different fields, `FROM`: tells SQL which table to read data from, `WHERE`
-- `ORDER BY` and `LIMIT`: only returns the specified amount of records
+- `SELECT`: used to choose different fields, `FROM`: tells SQL which table to read data from
+- `LIMIT`: only returns the specified amount of records
   - **Records** are to **databases** as **rows** are to **spreadsheets**
   - **Fields** are **columns** of a **database**
-- `GROUP BY` and `COUNT()`
-- `INNER JOIN` vs `LEFT JOIN`
-- ```*``` is a special character meaning "all"
+- `ROUND`: rounds numerical values to a specified number of decimal places
 
 ### SELECT
 - with the help of the ```AS``` keyword, you can **tempoarily rename the fields**
