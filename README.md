@@ -25,7 +25,7 @@ Welcome to my personal learning repo! I'm teaching myself data analysis with too
 ## 🎯 Learning Goals & Milestones
 
 ### 🧠 Skill Building
-- [ ] Finish 3 Power BI practice dashboards 📊
+- ✅ Finish 3 Power BI practice dashboards 📊
 - [ ] Complete SQL joins and subqueries on DataQuest 🔄
 - [ ] Master Excel formulas 📋
 
