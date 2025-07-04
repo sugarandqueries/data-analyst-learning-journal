@@ -4,7 +4,7 @@
 - Use ```/*``` and ```*/``` to write **multi-line comments**
 
 ## C.R.U.D.
-* The types of operations SQL can perform are often called "CRUD," aka "creatue, read, update, delete. For data professionals, we usually perform read operations. 
+* The types of operations SQL can perform are often called "CRUD," aka "creatue, read, update, delete." For data professionals, we usually perform read operations. 
 
 ## Divison
 - Using the ```/``` symbol only performs *integer* division, discarding the factional part
@@ -26,7 +26,7 @@
 - `ROUND`: rounds numerical values to a specified number of decimal places
 
 ### SELECT
-- with the help of the ```AS``` keyword, you can **tempoarily rename the fields**
+- with the help of the ```AS``` keyword, you can **temporarily rename the fields**
   - you can also just type the alias using **single or double quotes**, which is generally supported (AS is still perferred) 
   - ex: ```SELECT state_name AS 'State'```
 
