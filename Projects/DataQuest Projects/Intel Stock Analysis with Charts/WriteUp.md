@@ -8,3 +8,7 @@
 
 #### Column Chart
   The next question I wanted to answer was: How do the average monthly closing values compare to one another over the year? I copied the Data from the "Date" and "Close" columns, the created a new sheet named "Average Monthly Closing", and pasted the 2 columns into Column A and B. In Column D, I created the header "Month" and in column E, the header "Average". To fill out the Month column, I used ```=DATE(2020, 12, 1) and populated it through November 1st 2021 for a total of 12 months. To populate the "Average" column, I manually selected the cells to use, however, I believe there is an easier and more automatic way to do this, but I was unable to figure it out on my own. I'll have to return to the ```=AVERAGEIFS()``` and the ```EOMONTH()``` functions. After populating all the rows of the "Average" column, I created a column chart in order to compare the monthly averages. I titled the chart "Average Monthly Closing Values 2020-2021" to match the question I was answering, and formatted the chart to be easier to read. For the month with the highest closing average (April), I changed its color to be orange in order to make it stand out. 
+
+
+#### Histogram Chart
+Next, I wanted to answer the question "How frequenctly are the smaller volumes of unites traded daily compared to larger
