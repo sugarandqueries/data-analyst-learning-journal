@@ -61,32 +61,72 @@ These functions let you perform basic math calculations on cells that match a sp
   * Reverses the logical value of its argument
   * **Example**: `=NOT(A1 > 10)` returns TRUE if A1 is not greater than 10
 
+## 🔍 Lookup Functions🔍
+* Find or match a **lookup value** in a column and return a related value in another column from the same row. 
+*  **Dimension Tables** contain primary keys which are unique identifiers for each row, and **Fact Tables** contain foreign keys that reference the primary keys in dimension tables.
 
-## Misc Functions (Not Organized Yet)
+![alt text](image-11.png)
 
-### MEDIAN()
-```=MEDIAN()```
-* calculating the median helps when there is a huge outlier so averages aren’t skewed to the high outliers 
-
----
-### VLOOKUP() 
+### 👀 =VLOOKUP( ) 👀
 ```=VLOOKUP(value_to_find, starting_column_to_find_it, index_for_return_value, false)```
-
 *  value_to_find: The value you're trying to find
 *  starting_column_to_find_it: The range, starting with the column that includes the value you're trying to find
 *  index_for_return_value: The index number of the range where your answer is located
 *  false: An exact (FALSE) or approximate (TRUE) return value
 
----
-### =DATEDIF()
-```=DATEDIF(A1, B1, "d")``` 
+### 🪄 =XLOOKUP( ) 🪄
+```=XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])```
+* A more powerful and flexible replacement for VLOOKUP
+  * **lookup_value**: The value you want to find
+  * **lookup_array**: The range of cells to search for the lookup value
+  * **return_array**: The range of cells from which to return a value
+  * **if_not_found**: The value to return if the lookup value is not found
+  * **match_mode**: The type of match to perform (exact or approximate)
+  * **search_mode**: The direction to search (first-to-last or last-to-first)
+⭐ Pro Tip: If you put a `.` before the array you want to return, it will automatically fill ONLY the unique values from that array (makes it more efficient)
+
+## Date & Time Functions
+### 🕦 =TODAY( ) & =NOW( ) 🕥
+```=TODAY()``` 
+* Returns the current date:`7/15/2025`
+
+```=NOW()```
+* Returns the current date and time:`7/15/2025 18:29`
+
+### 🗓️ =YEAR (), =MONTH(), =DAY( ) 🗓️
+```=YEAR(A1)```
+* Returns the year of a date
+```=MONTH(A1)```
+* Returns the month of a date
+```=DAY(A1)```
+* Returns the day of a date
+
+### ⌛ =HOUR ( ), =MINUTE( ) =SECOND( ) ⌛
+```=HOUR(A1)```
+* Returns the hour of a time
+```=MINUTE(A1)```
+* Returns the minute of a time
+```=SECOND(A1)```
+* Returns the second of a time
+
+### ⏲️ =WEEKNUM( ) & =WEEKDAY( ) ⏲️
+```=WEEKNUM(A1)```
+* Returns the week number of a date (1-53)
+```=WEEKDAY(A1)```
+* Returns the day of the week for a date (1-7)
+
+### ➖ =DATEDIF( ) ➖
+```=DATEDIF(A1, B1, "d")```
 * Calculate the difference between two dates in days. "d" is # of days, "m" is # of months
+
+
+
+## Misc Functions (Not Organized Yet)
 
 ### =RANDARRAY()
 ```=RANDARRAY()```
 * Creates random data you can experiment with!
   * ```=RANDARRAY(100, 1, 1, 30, TRUE)``` will generate 100 random integers between 1 and 30. 
-
 ![alt text](image-3.png)
 
 
