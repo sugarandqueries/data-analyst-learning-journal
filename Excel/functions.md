@@ -146,9 +146,11 @@ These functions let you perform basic math calculations on cells that match a sp
 * Returns a specific number of characters from a text string, starting at a specified position
   
 ### =TEXTBEFORE( ), =TEXTAFTER( )
-```=TEXTBEFORE(text, delimiter, [...])```
+```=TEXTBEFORE(text, delimiter, [ ])```
 * Returns the text before a specified delimiter
-```=TEXTAFTER(text, delimiter, [...])```
+`=TEXTAFTER(text, delimiter, [instance_num], [ignore_case])`
+* Returns the text after a specified delimiter
+```=TEXTAFTER(text, delimiter, [ ])```
 * Returns the text after a specified delimiter
 
 ### ✂️ =TEXTSPLIT( ) ✂️
