@@ -119,7 +119,50 @@ These functions let you perform basic math calculations on cells that match a sp
 ```=DATEDIF(A1, B1, "d")```
 * Calculate the difference between two dates in days. "d" is # of days, "m" is # of months
 
+## ✍️ Text Functions ✍️
 
+### ⏫ =UPPER( ) ⏫
+```=UPPER(text```
+* Converts text to uppercase  
+  
+### ⏬ =LOWER( ) ⏬
+```=LOWER(text```
+* Converts text to lowercase
+  
+### 🔠 =PROPER( ) 🔠
+```=PROPER(text```
+* Converts text to proper case (first letter of each word capitalized)
+  
+### ✂️ =TRIM( ) ✂️
+```=TRIM(text```
+* Removes extra spaces from text, leaving only single spaces between words
+  
+### ➡️ =LEFT( ), =RIGHT( ), =MID( ) ➡️
+```=LEFT(text, start, characters`
+* Returns the leftmost characters from a text string
+```=RIGHT(text, characters)`
+* Returns the rightmost characters from a text string
+```=MID(text, start, characters)` 
+* Returns a specific number of characters from a text string, starting at a specified position
+  
+### =TEXTBEFORE( ), =TEXTAFTER( )
+```=TEXTBEFORE(text, delimiter, [...])```
+* Returns the text before a specified delimiter
+```=TEXTAFTER(text, delimiter, [...])```
+* Returns the text after a specified delimiter
+
+### ✂️ =TEXTSPLIT( ) ✂️
+```=TEXTSPLIT(text, delimiter, [...])```
+* Splits text into an array based on a specified delimiter
+  
+### ▶️ =TEXTJOIN( ) ◀️
+```=TEXTJOIN(", ", TRUE, A1:A5)```
+* Joins text from multiple cells into a single cell, with a specified delimiter
+* 
+⭐Pro Tip: Use `&` to concatenate text in Excel, e.g., `=A1 & " " & B1` to combine values from A1 and B1 with a space in between.
+
+
+---
 
 ## Misc Functions (Not Organized Yet)
 

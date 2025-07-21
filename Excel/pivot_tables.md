@@ -1,5 +1,6 @@
 ## :chart_with_upwards_trend: Pivot Tables
 * A powerful tool to calculate, summarize, and analyze data that lets you see comparisons, patterns, and trends in your data.
+* **Dimensions** are the categories you want to analyze (like products or regions), and **Measures** are the values you want to calculate (like sales or profit).
 
 ### 🧩 What You Can Do With It
 
