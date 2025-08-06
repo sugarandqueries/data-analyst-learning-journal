@@ -2,7 +2,7 @@
 
 Basic guidelines:
 
-* Continuous numerical data
+* Continuous **numerical data**
 * See how often different ranges of values appear in your data
 * A large dataset you want to summarize quickly
 * Each bin (x-axis) will have a different frequency (y-axis)
@@ -28,9 +28,19 @@ Basic guidelines:
    
 ![alt text](image-1.png)
 
+#### Creating a Histogram chart from a PivotTable
+1. Create a PivotTable with the data you want to visualize.
+2. Add a blank Histogram chart to your worksheet.
+3. Right-click on the chart and select "Select Data."
+4. In the "Select Data Source" dialog, click on "Add" to add a new series.
+5. In the "Edit Series" dialog, select the range of data you want to use
+  
+![alt text](<Screenshot 2025-08-06 172451.png>)
+
+
 ---
 
-## Line Charts
+### Line Charts
 
 When to use a line chart:
 * you have a large dataset with continuous data that you need to compare
@@ -41,24 +51,26 @@ When to use a line chart:
 
 ---
 
-## Scatter Charts
+### Scatterplots
 
 Show the relationship between independent and dependent values of numerical data. They can have more than one y-value for each x-value. 
 * If a parttern forms a line, there is a linear correlation (correlation does not equal causation!) The closer the markers are to a straight line, the stronger the correlation.
 
-When to use a scatter chart
+When to use a scatter plot
 * see if there is a relationship btwn 2 columns of numerical data
 * have lots of data to compare
 * looking for abnormal values that don't follow an overall pattern
 * explore data + find relationships
 
 ![image](https://github.com/user-attachments/assets/1408bb16-8421-4131-84bb-c40e5d40d24c)
+
 * That little dot between 0.6 and 0.8 on the x-axis is called an outlier! 
+
 ![image](https://github.com/user-attachments/assets/e0beb286-c87a-4021-9264-c3cb0c35d736)
 
 ![image](https://github.com/user-attachments/assets/20acf326-0ea4-4dbb-b4d3-6916feeed4e3)
 
-## Trendlines
+### Trendlines
 also called line of best fit
 * how to measure it? use **R-squared,** it explains that the amount of variability in one column can be explained by its relationship to another column. However, it is a measure of correlation, not whether the correlation is positive/negative.
     * also measures the strength of the relationship between x and y axis, with 1 being a perfect fit.
@@ -71,7 +83,7 @@ also called line of best fit
 
 ---
 
-## Boxplots
+### Boxplots
 Another way, like histograms, to display the IQR (inner quartile range)
   * The Median is the center of the IQR
   * The Mean is the same as the IQR
@@ -81,10 +93,29 @@ Another way, like histograms, to display the IQR (inner quartile range)
 
 ![image](https://github.com/user-attachments/assets/755e38f9-f61e-4dec-82fe-3b94d6db377f)
 
-  
+*images/charts sourced from DataQuest, I take no ownership.*
+
 ---
 
+### Combo Charts
+Combo charts are a combination of two or more chart types, such as a line chart and a column chart, to display different data series on the same chart. They are useful when you want to compare different types of data or highlight relationships between them.
 
+#### How to add Secondary Axis:
 
+1. Select your chart
+2. Go to the **Chart Design** tab
+3. Click on **Change Chart Type**
+4. In the Change Chart Type dialog, select the data series you want to add a secondary axis for and choose the "Secondary Axis" option.
+![alt text](image-12.png)
 
-*images/charts sourced from DataQuest, I take no ownership.*
+#### Pro-Tips
+* For gridlines, you usually want both y-axis data labels to be the same number (i.e. 8 lines for both y-axes)
+* Use different colors for each data series to make them easily distinguishable, as well as making the **axis labels** the same color as the data series.
+
+### Pie & Donut Charts 
+These are used for visualizing part-to-whole relationships 
+* utilize **categorical data** to communicate **composition**
+* keep the number of slices low! <6 to maximize readability
+* If you have more than 6 slices, you can group ALL the other data points into an "Other" category to simplify the chart (see below)
+    ![alt text](image-13.png)
+
